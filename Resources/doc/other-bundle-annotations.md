@@ -14,7 +14,7 @@ This bundle will get information from the following other annotations:
 
 * `@FOS\RestBundle\Controller\Annotations\RequestParam` - use as `parameters`
 
-* `@FOS\RestBundle\Controller\Annotations\QueryParam` - use as `requirements` (when strict parameter is true), `filters` (when strict is false)
+* `@FOS\RestBundle\Controller\Annotations\QueryParam` - use as `requirements` (when nullable parameter is false), `filters` (when nullable is true)
 
 * `@JMS\SecurityExtraBundle\Annotation\Secure` - set `authentication` to true, `authenticationRoles` to the given roles
 
